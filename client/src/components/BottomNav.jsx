@@ -4,7 +4,7 @@ import { useState ,useRef, useEffect} from 'react';
 import ClusterMap from './map/ClusterMap';
 import Rooms from './rooms/Rooms';
 import AddRoom from './addRoom/AddRoom';
-import Protected from './protected/Protected';
+import Protected from './protected/protected';
 
   const BottomNav = () => {
     const [value, setValue] = useState(0);
